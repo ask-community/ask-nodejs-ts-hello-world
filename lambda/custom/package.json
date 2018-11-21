@@ -1,0 +1,25 @@
+{
+  "name": "ask-nodejs-ts-hello-world",
+  "version": "1.0.0",
+  "description": "Hello World sample in TypeScript and compatible with ask-cli",
+  "main": "index.js",
+  "scripts": {
+    "build": "run-script-os",
+    "build:win32": "tsc",
+    "build:darwin:linux": "tsc",    
+    "postbuild:win32": "copy package.json dist && cd dist && npm install --production",
+    "postbuild:darwin:linux": "cp -R package.json dist/package.json && cd dist && npm install --production",
+    "watch": "tsc --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^10.12.9",
+    "run-script-os": "^1.0.3",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "ask-sdk": "^2.0.5"
+  }
+}
