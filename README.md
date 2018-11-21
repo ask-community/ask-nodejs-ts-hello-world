@@ -18,9 +18,8 @@ Install/register for the following:
 - ASK CLI (including `ask init`)
 
 ## Get the Code
-There are two ways to get the code:
 
-1. Clone the repo
+Clone the repo
 
     ```bash
     $ git clone https://github.com/ask-community/ask-nodejs-ts-hello-world.git my-skill-name
@@ -29,13 +28,6 @@ There are two ways to get the code:
     $ npm install
     ```
 
-2. Use ASK CLI
-
-    ```bash
-    $ ask new --url https://github.com/ask-community/ask-nodejs-ts-hello-world.git -n my-skill-name
-    ```
-
-    NOTE: `npm install` will automatically be run after the template is installed
 
 ## Compile the TypeScript
 The template is already configured for TypeScript. From the `my-skill-name/lambda/custom` folder, start the build.
