@@ -21,12 +21,11 @@ Install/register for the following:
 
 Clone the repo
 
-    ```bash
-    $ git clone https://github.com/ask-community/ask-nodejs-ts-hello-world.git my-skill-name
-
+```bash
+    $ git clone https://github.com/ask-community/ask-nodejs-ts-hello world.git my-skill-name
     $ cd my-skill-name/lambda/custom
     $ npm install
-    ```
+```
 
 
 ## Compile the TypeScript
